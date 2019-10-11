@@ -1,0 +1,31 @@
+{
+  "name": "mork-parser",
+  "version": "0.9.0",
+  "description": "Mork file format parser",
+  "author": "Papn Kukn <papnkukn@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "mork2json": "bin/mork2json.js"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  },
+  "keywords": [
+    "mork",
+    "mab",
+    "msf",
+    "mozilla",
+    "thunderbird"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papnkukn/mork-parser"
+  },
+  "bugs": {
+    "url": "https://github.com/papnkukn/mork-parser/issues"
+  }
+}
